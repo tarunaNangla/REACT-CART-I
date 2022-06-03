@@ -14,12 +14,12 @@ const Products = () => {
             method:"get"
         }).then(res=>{
             setData(res.data);
+            console.log(data)
 
         }).catch(err=>{
             setLoading(false)
         })
     },[])
-    console.log(data)
    
   return (
     <div>
