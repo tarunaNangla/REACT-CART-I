@@ -10,7 +10,7 @@ const Products = () => {
     useEffect(()=>{
         setLoading(true)
         axios({
-            url:"http://localhost:3000/data",
+            url:"  http://localhost:3000/data",
             method:"get"
         }).then(res=>{
             setData(res.data);

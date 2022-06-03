@@ -10,7 +10,7 @@ import Socialmedia from './Components/Socialmedia';
 import FAQ from './Components/FAQ';
 import Job from './Components/Job';
 import Footer from './Components/Footer';
-import Coupon from './Components/Coupon';
+// import Coupon from './Components/Coupon';
 import Products from './Components/Products';
 
 
